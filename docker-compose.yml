@@ -11,8 +11,8 @@ gitlab:
    - postgresql:postgresql
    - owldiff
   ports:
-   - "10080:80"
-   - "10022:22"
+   - "80:80"
+   - "22:22"
 redis:
   image: sameersbn/redis:latest
 owldiff:
