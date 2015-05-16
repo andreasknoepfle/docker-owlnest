@@ -35,8 +35,6 @@ EXPOSE 10022
 EXPOSE 80
 EXPOSE 443
 
-ENV INSIDE_DOCKER 1
-
 VOLUME ["/home/git/data"]
 VOLUME ["/var/log/gitlab"]
 
